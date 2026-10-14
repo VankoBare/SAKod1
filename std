@@ -1,0 +1,20 @@
+public class student
+{
+    String name;
+    String FacNum;
+    double grade;
+
+    public student (String name, String FacNum, double grade){
+
+        this.name = name;
+        this.FacNum = FacNum;
+        this.grade = grade;
+    }
+    public void printStudent (){
+
+        System.out.println("name:" + this.name);
+        System.out.println("FacNum:" + this.FacNum);
+        System.out.println("grade:" + this.grade);
+
+    }
+}
